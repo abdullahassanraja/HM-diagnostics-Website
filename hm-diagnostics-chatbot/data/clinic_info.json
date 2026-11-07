@@ -1,0 +1,636 @@
+{
+  "schema_version": 1,
+  "clinic_name": "HM Diagnostics & Clinics",
+  "address": "Crescent Arcade #13, 14, G8 Markaz, Islamabad",
+  "contact_number": "0334-6333044",
+  "landline": "051-2340199",
+  "email": "hmdiagnosticsclinic@gmail.com",
+  "opening_hours": {
+    "status": "unverified",
+    "value": null,
+    "note": "Confirm current hours with reception."
+  },
+  "reviewed_on": "2026-11-07",
+  "review_note": "Verified means published in the cited official source, not independently confirmed with clinic staff. Demo prices are illustrative and never official fees. Source pages may be cached or unavailable. Update this file and review current details before live use.",
+  "records": [
+    {
+      "id": "location",
+      "category": "clinic",
+      "status": "verified",
+      "label": "Location",
+      "label_ur": "",
+      "text": "{clinic_name} is at {address}.",
+      "text_ur": "{clinic_name} کا پتہ: {address}۔",
+      "keywords": [
+        "address",
+        "location",
+        "where",
+        "g8",
+        "g-8",
+        "islamabad",
+        "پتہ",
+        "کہاں",
+        "جگہ"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "reception",
+      "category": "clinic",
+      "status": "verified",
+      "label": "Reception",
+      "label_ur": "",
+      "text": "Contact reception on {contact_number} or {landline}. WhatsApp is available on the mobile number.",
+      "text_ur": "استقبالیہ سے {contact_number} یا {landline} پر رابطہ کریں۔ موبائل نمبر پر واٹس ایپ دستیاب ہے۔",
+      "keywords": [
+        "reception",
+        "phone",
+        "contact",
+        "call",
+        "whatsapp",
+        "receptionist",
+        "بات",
+        "رابطہ",
+        "فون"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "email",
+      "category": "clinic",
+      "status": "verified",
+      "label": "Email",
+      "label_ur": "",
+      "text": "Email the clinic at {email}.",
+      "text_ur": "",
+      "keywords": [
+        "email",
+        "ای میل"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/contact-us-at-hm-diagnostics-and-clinics/"
+    },
+    {
+      "id": "hours",
+      "category": "clinic",
+      "status": "verified",
+      "label": "Opening hours",
+      "label_ur": "",
+      "text": "Opening hours are not verified in this knowledge file. Please call reception before travelling.",
+      "text_ur": "اس فائل میں کلینک کے اوقات کی تصدیق موجود نہیں۔ آنے سے پہلے استقبالیہ سے رابطہ کریں۔",
+      "keywords": [
+        "hours",
+        "timing",
+        "open",
+        "close",
+        "sunday",
+        "اوقات",
+        "کھلا",
+        "بند"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "lab",
+      "category": "services",
+      "status": "verified",
+      "label": "Laboratory",
+      "label_ur": "",
+      "text": "HM lists laboratory services. Reception can confirm the specific investigation, preparation, availability and fee.",
+      "text_ur": "HM میں لیبارٹری خدمات درج ہیں۔ مخصوص ٹیسٹ، تیاری، دستیابی اور فیس کے لیے استقبالیہ سے تصدیق کریں۔",
+      "keywords": [
+        "lab",
+        "blood",
+        "test",
+        "خون",
+        "لیب",
+        "ٹیسٹ"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "mri",
+      "category": "services",
+      "status": "verified",
+      "label": "MRI / CT scan",
+      "label_ur": "",
+      "text": "MRI / CT scan is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "mri",
+        "ct scan",
+        "scan",
+        "ایم آر آئی",
+        "سی ٹی"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "ultrasound",
+      "category": "services",
+      "status": "verified",
+      "label": "Ultrasound",
+      "label_ur": "",
+      "text": "Ultrasound is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "ultrasound",
+        "الٹراساؤنڈ"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "xray",
+      "category": "services",
+      "status": "verified",
+      "label": "Digital X-ray",
+      "label_ur": "",
+      "text": "Digital X-ray is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "xray",
+        "x-ray",
+        "x ray",
+        "ایکس رے"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "cardiac",
+      "category": "services",
+      "status": "verified",
+      "label": "ECHO / ECG / ETT",
+      "label_ur": "",
+      "text": "ECHO / ECG / ETT is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "echo",
+        "ecg",
+        "ett",
+        "heart",
+        "دل"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "ncs",
+      "category": "services",
+      "status": "verified",
+      "label": "Nerve conduction studies",
+      "label_ur": "",
+      "text": "Nerve conduction studies is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "ncs",
+        "nerve"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "endoscopy",
+      "category": "services",
+      "status": "verified",
+      "label": "Endoscopy",
+      "label_ur": "",
+      "text": "Endoscopy is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "endoscopy",
+        "اینڈوسکوپی"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "hearing",
+      "category": "services",
+      "status": "verified",
+      "label": "Hearing center",
+      "label_ur": "",
+      "text": "Hearing center is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "hearing",
+        "ear",
+        "سماعت"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "physio",
+      "category": "services",
+      "status": "verified",
+      "label": "Physiotherapy",
+      "label_ur": "",
+      "text": "Physiotherapy is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "physio",
+        "physiotherapy",
+        "فزیوتھراپی"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "pharmacy",
+      "category": "services",
+      "status": "verified",
+      "label": "Pharmacy",
+      "label_ur": "",
+      "text": "Pharmacy is listed among HM’s services. Contact reception to confirm arrangements and fees.",
+      "text_ur": "",
+      "keywords": [
+        "pharmacy",
+        "فارمیسی"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "preparation",
+      "category": "preparation",
+      "status": "verified",
+      "label": "Test preparation",
+      "label_ur": "",
+      "text": "Preparation instructions depend on the specific test and your doctor’s advice. No test-specific preparation is verified here; contact reception before your visit.",
+      "text_ur": "تیاری مخصوص ٹیسٹ اور ڈاکٹر کی ہدایت پر منحصر ہے۔ یہاں مخصوص تیاری کی تصدیق موجود نہیں؛ آنے سے پہلے استقبالیہ سے پوچھیں۔",
+      "keywords": [
+        "fast",
+        "fasting",
+        "preparation",
+        "prepare",
+        "eat",
+        "water",
+        "تیاری",
+        "خالی پیٹ"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "reports",
+      "category": "faq",
+      "status": "verified",
+      "label": "Online reports",
+      "label_ur": "",
+      "text": "HM offers online reporting. Ask reception how to access your report and when your particular results will be ready.",
+      "text_ur": "HM آن لائن رپورٹنگ فراہم کرتا ہے۔ اپنی رپورٹ تک رسائی اور وقت کے لیے استقبالیہ سے رابطہ کریں۔",
+      "keywords": [
+        "report",
+        "result",
+        "online",
+        "رپورٹ",
+        "نتیجہ"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "booking",
+      "category": "policy",
+      "status": "verified",
+      "label": "Appointment requests",
+      "label_ur": "",
+      "text": "Appointment requests remain Pending until clinic staff confirm availability. A chatbot request is not a confirmed booking.",
+      "text_ur": "درخواست کی حیثیت Pending رہتی ہے، جب تک کلینک کا عملہ تصدیق نہ کرے۔ چیٹ بوٹ کی درخواست تصدیق شدہ بکنگ نہیں ہے۔",
+      "keywords": [
+        "appointment",
+        "booking",
+        "book",
+        "اپائنٹمنٹ",
+        "بکنگ"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/"
+    },
+    {
+      "id": "demo-cbc",
+      "category": "prices",
+      "status": "demo",
+      "label": "Complete blood count (CBC)",
+      "label_ur": "",
+      "text": "Sample pricing record. The amount field is the single source of truth; demo status is labelled automatically.",
+      "text_ur": "یہ ڈیمو کی قیمت کا ریکارڈ ہے؛ اصل فیس استقبالیہ سے معلوم کریں۔",
+      "keywords": [
+        "cbc",
+        "complete blood",
+        "سی بی سی"
+      ],
+      "source_url": null,
+      "amount": 700,
+      "currency": "PKR"
+    },
+    {
+      "id": "demo-glucose",
+      "category": "prices",
+      "status": "demo",
+      "label": "Blood glucose",
+      "label_ur": "",
+      "text": "Sample pricing record. The amount field is the single source of truth; demo status is labelled automatically.",
+      "text_ur": "یہ ڈیمو کی قیمت کا ریکارڈ ہے؛ اصل فیس استقبالیہ سے معلوم کریں۔",
+      "keywords": [
+        "glucose",
+        "sugar",
+        "شوگر"
+      ],
+      "source_url": null,
+      "amount": 350,
+      "currency": "PKR"
+    },
+    {
+      "id": "demo-lipid",
+      "category": "prices",
+      "status": "demo",
+      "label": "Lipid profile",
+      "label_ur": "",
+      "text": "Sample pricing record. The amount field is the single source of truth; demo status is labelled automatically.",
+      "text_ur": "یہ ڈیمو کی قیمت کا ریکارڈ ہے؛ اصل فیس استقبالیہ سے معلوم کریں۔",
+      "keywords": [
+        "lipid",
+        "cholesterol",
+        "کولیسٹرول"
+      ],
+      "source_url": null,
+      "amount": 1800,
+      "currency": "PKR"
+    },
+    {
+      "id": "demo-urine",
+      "category": "prices",
+      "status": "demo",
+      "label": "Urine routine examination",
+      "label_ur": "",
+      "text": "Sample pricing record. The amount field is the single source of truth; demo status is labelled automatically.",
+      "text_ur": "یہ ڈیمو کی قیمت کا ریکارڈ ہے؛ اصل فیس استقبالیہ سے معلوم کریں۔",
+      "keywords": [
+        "urine",
+        "پیشاب"
+      ],
+      "source_url": null,
+      "amount": 500,
+      "currency": "PKR"
+    },
+    {
+      "id": "demo-thyroid",
+      "category": "prices",
+      "status": "demo",
+      "label": "Thyroid profile",
+      "label_ur": "",
+      "text": "Sample pricing record. The amount field is the single source of truth; demo status is labelled automatically.",
+      "text_ur": "یہ ڈیمو کی قیمت کا ریکارڈ ہے؛ اصل فیس استقبالیہ سے معلوم کریں۔",
+      "keywords": [
+        "thyroid",
+        "تھائیرائڈ"
+      ],
+      "source_url": null,
+      "amount": 2500,
+      "currency": "PKR"
+    },
+    {
+      "id": "doctor-1",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Hafsa Shahid Malik",
+      "label_ur": "",
+      "text": "Dr. Hafsa Shahid Malik — Adult cardiology. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "hafsa shahid malik",
+        "adult cardiology"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-2",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Noureen Haider",
+      "label_ur": "",
+      "text": "Dr. Noureen Haider — Gastroenterology. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "noureen haider",
+        "gastroenterology"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-3",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Abdul Salam Wazir",
+      "label_ur": "",
+      "text": "Dr. Abdul Salam Wazir — Pediatric cardiology. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "abdul salam wazir",
+        "pediatric cardiology"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-4",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Ismail Younis Hamdan Matar",
+      "label_ur": "",
+      "text": "Dr. Ismail Younis Hamdan Matar — ENT. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "ismail younis hamdan matar",
+        "ent"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-5",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Farrah Ghalib",
+      "label_ur": "",
+      "text": "Dr. Farrah Ghalib — Gynecology & obstetrics. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "farrah ghalib",
+        "gynecology & obstetrics"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-6",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Niaz Ahmad Khan",
+      "label_ur": "",
+      "text": "Dr. Niaz Ahmad Khan — Neurosurgery. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "niaz ahmad khan",
+        "neurosurgery"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-7",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Rooshan Taj",
+      "label_ur": "",
+      "text": "Dr. Rooshan Taj — Child specialist. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "rooshan taj",
+        "child specialist"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-8",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Waqar Khan",
+      "label_ur": "",
+      "text": "Dr. Waqar Khan — General medicine. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "waqar khan",
+        "general medicine"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-9",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Adil Said Ullah",
+      "label_ur": "",
+      "text": "Dr. Adil Said Ullah — Orthopedic surgery. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "adil said ullah",
+        "orthopedic surgery"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-10",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Maria Tariq",
+      "label_ur": "",
+      "text": "Dr. Maria Tariq — Gynecology & obstetrics. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "maria tariq",
+        "gynecology & obstetrics"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-11",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Javeria Wasim",
+      "label_ur": "",
+      "text": "Dr. Javeria Wasim — Dermatology. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "javeria wasim",
+        "dermatology"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-12",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Momina Asfandiyar",
+      "label_ur": "",
+      "text": "Dr. Momina Asfandiyar — Psychiatry. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "momina asfandiyar",
+        "psychiatry"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-13",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Aimal Khan",
+      "label_ur": "",
+      "text": "Dr. Aimal Khan — Medicine, diabetes & endocrinology. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "aimal khan",
+        "medicine, diabetes & endocrinology"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-14",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Hina Zahoor",
+      "label_ur": "",
+      "text": "Dr. Hina Zahoor — Dermatology. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "hina zahoor",
+        "dermatology"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-15",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Aqeel Awan",
+      "label_ur": "",
+      "text": "Dr. Aqeel Awan — Urology. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "aqeel awan",
+        "urology"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-16",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Ayesha Israr",
+      "label_ur": "",
+      "text": "Dr. Ayesha Israr — Family medicine. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "ayesha israr",
+        "family medicine"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-17",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Amna Rashid",
+      "label_ur": "",
+      "text": "Dr. Amna Rashid — Physiotherapy. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "amna rashid",
+        "physiotherapy"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    },
+    {
+      "id": "doctor-18",
+      "category": "doctors",
+      "status": "verified",
+      "label": "Dr. Samavia Ijaz",
+      "label_ur": "",
+      "text": "Dr. Samavia Ijaz — Radiology. Consultation times, availability and fees must be confirmed with reception.",
+      "text_ur": "",
+      "keywords": [
+        "samavia ijaz",
+        "radiology"
+      ],
+      "source_url": "https://hmdiagnosticsandclinics.com/experienced-doctors/"
+    }
+  ]
+}

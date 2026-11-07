@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: hm-diagnostics-receptionist
+    runtime: python
+    plan: free
+    rootDir: hm-diagnostics-chatbot
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1 --no-access-log
+    healthCheckPath: /health
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: DEMO_MODE
+        value: "true"
+      - key: DEMO_DATA_ENABLED
+        value: "true"
+      - key: APPOINTMENT_STORAGE
+        value: memory
+      - key: GEMINI_ENABLED
+        value: "false"
+      - key: GROQ_ENABLED
+        value: "true"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: KEEP_ALIVE_ENABLED
+        value: "false"
+      - key: KEEP_ALIVE_INTERVAL_SECONDS
+        value: "720"
+      - key: TIMEZONE
+        value: Asia/Karachi

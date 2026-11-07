@@ -52,7 +52,11 @@ docs/                 Content sources and image generation notes
 - A WhatsApp enquiry form. Visitors review and send the message in WhatsApp; it does not confirm or reserve an appointment.
 - Click-to-call, email, and Google Maps links.
 
-The proposed AI receptionist has **not** been implemented. No API keys or external AI integrations are included.
+## AI receptionist module
+
+The separate [FastAPI receptionist module](hm-diagnostics-chatbot/README.md) includes an editable knowledge JSON, clearly labelled demo prices, a consent-based appointment flow, Gemini/Groq provider adapters, Google Sheets support and an embeddable chat widget.
+
+Run its `/demo` page locally without credentials. Live providers and Sheets need backend environment configuration. The live website pages are not automatically connected until the backend is deployed and its widget snippet is added. No API keys or Google credentials are committed.
 
 ## Deploy
 

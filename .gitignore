@@ -5,5 +5,14 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+.coverage
+coverage.xml
+credentials*.json
+service-account*.json
 .idea/
 .vscode/

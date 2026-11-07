@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "url": "https://hmdiagnosticsandclinics.com/",
+      "checked_at": "2026-11-07T17:45:34.388281+00:00",
+      "status": "retrieved",
+      "content_sha256": "a0a7a8cc610824c1c5e3e382827f859d242aaa8a20d18beea7321661767f98f4",
+      "published_phones": [
+        "0334-6333044",
+        "051-2340199"
+      ],
+      "mentioned_services": [
+        "laboratory",
+        "MRI",
+        "CT scan",
+        "ultrasound",
+        "X-ray",
+        "cardiology",
+        "physiotherapy",
+        "pharmacy",
+        "endoscopy",
+        "NCS",
+        "ECG",
+        "ETT"
+      ],
+      "emails": []
+    },
+    {
+      "url": "https://hmdiagnosticsandclinics.com/experienced-doctors/",
+      "checked_at": "2026-11-07T17:45:35.074855+00:00",
+      "status": "retrieved",
+      "content_sha256": "40114b33eee11a3c55e1ebe77871f470ddd1fc444583a621e645d96267322115",
+      "published_phones": [],
+      "mentioned_services": [],
+      "emails": []
+    },
+    {
+      "url": "https://hmdiagnosticsandclinics.com/our-services/",
+      "checked_at": "2026-11-07T17:45:35.478384+00:00",
+      "status": "retrieved",
+      "content_sha256": "f39b6662565381230d53e035067595ece724f9dc717044fdba3f6d35efd66659",
+      "published_phones": [
+        "0334-6333044",
+        "051-2340199"
+      ],
+      "mentioned_services": [
+        "laboratory",
+        "MRI",
+        "ultrasound",
+        "X-ray",
+        "cardiology",
+        "dermatology",
+        "gynecology"
+      ],
+      "emails": []
+    },
+    {
+      "url": "https://hmdiagnosticsandclinics.com/contact-us-at-hm-diagnostics-and-clinics/",
+      "checked_at": "2026-11-07T17:45:35.703099+00:00",
+      "status": "retrieved",
+      "content_sha256": "9e6351241ae905fa24739eef209e2d0d4ee630fdbd7f886a3089f65a86643ce3",
+      "published_phones": [
+        "0334-6333044",
+        "051-2340199"
+      ],
+      "mentioned_services": [
+        "ultrasound",
+        "X-ray",
+        "cardiology",
+        "gynecology"
+      ],
+      "emails": []
+    }
+  ],
+  "note": "Review extracted facts before editing clinic_info.json. This scraper never approves prices, hours, preparation or doctor availability."
+}

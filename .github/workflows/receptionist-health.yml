@@ -1,0 +1,26 @@
+name: Optional receptionist health check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/12 * * * *'
+permissions:
+  contents: read
+concurrency:
+  group: receptionist-health
+  cancel-in-progress: false
+jobs:
+  health:
+    # Disabled until explicitly enabled. Use this OR cron-job.org, not both.
+    if: vars.RECEPTIONIST_HEALTH_CHECK_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check configured HTTPS health endpoint
+        env:
+          HEALTH_URL: ${{ vars.RECEPTIONIST_HEALTH_URL }}
+        run: |
+          case "$HEALTH_URL" in
+            https://*/health) ;;
+            *) echo 'Set RECEPTIONIST_HEALTH_URL to an HTTPS /health endpoint.'; exit 1 ;;
+          esac
+          curl --fail --silent --show-error --max-time 75 --retry 1 "$HEALTH_URL"

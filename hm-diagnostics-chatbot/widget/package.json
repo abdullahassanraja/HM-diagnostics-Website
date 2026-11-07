@@ -1,0 +1,6 @@
+{
+  "name": "hm-receptionist-widget-tests",
+  "private": true,
+  "scripts": {"test": "node ../tests/widget-smoke.cjs"},
+  "devDependencies": {"jsdom": "24.1.3"}
+}
