@@ -33,7 +33,7 @@ async def submit(payload: AppointmentInput, request: Request) -> AppointmentOutp
         except StorageError:
             raise HTTPException(503, 'We could not verify that your request was saved. Retry this same request or call reception. Your appointment is not confirmed.') from None
         demo = state.settings.demo_mode
-        message = ('Demo request received in temporary memory only. It has NOT been sent to the clinic and is not a confirmed appointment.' if demo else 'Your request has been received and is Pending. Reception will confirm availability; this is not a confirmed appointment.')
+        message = ('Thank you—your demo request has been received in temporary memory only. It has NOT been sent to the clinic and is not a confirmed appointment. Is there anything else I can help you with?' if demo else 'Thank you—your request has been received and is Pending. Reception still needs to confirm availability; this is not a confirmed appointment. Is there anything else I can help you with?')
         output = AppointmentOutput(request_id=record.request_id, status='Pending', saved=True, demo=demo, message=message)
         session.receipt = output.model_dump(mode='json'); session.stage = 'submitted'
         session.fields.clear()  # PII is no longer needed for conversation state after submission.

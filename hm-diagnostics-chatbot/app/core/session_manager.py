@@ -16,6 +16,8 @@ class Session:
     consent: bool = False
     fields: dict[str, str] = field(default_factory=dict)
     topics: list[str] = field(default_factory=list)
+    interest_service: str = ''
+    next_step: str = ''
     confirmation_token: str = ''
     request_id: str = field(default_factory=lambda: str(uuid4()))
     receipt: dict | None = None
@@ -25,6 +27,7 @@ class Session:
         self.stage, self.consent = 'idle', False
         self.fields.clear()
         self.confirmation_token = ''
+        self.interest_service, self.next_step = '', ''
         self.request_id = str(uuid4())
         self.receipt = None
 

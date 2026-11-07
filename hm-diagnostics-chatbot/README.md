@@ -36,6 +36,10 @@ Website → widget/chatbot.js → FastAPI
 
 No n8n, LangChain, embeddings, vector database or fine-tuning is used.
 
+### Receptionist style
+
+The assistant welcomes visitors warmly, answers their question first, then offers a relevant next step: a visit request for service enquiries or a reception callback for fee/availability questions. A visitor’s “yes” starts the consent step, not a submission. The last discussed public service can be offered as an optional choice during booking. “Not now”, gratitude and goodbyes receive polite, low-pressure replies; urgent or personal medical questions receive no sales follow-up. English and Urdu greetings and closings are supported. Final receipts thank the visitor and keep the request explicitly Pending.
+
 The LLM integrations are deliberately constrained: the backend sends **only curated public knowledge records and prior public topic IDs**, never the visitor’s raw message or appointment fields. Providers select approved record IDs. The backend validates those IDs and renders the corresponding approved facts itself. Provider-generated fees, preparation instructions, diagnoses and other free-form claims are not displayed. With both providers unavailable, the assistant still shares available knowledge and reception contact information.
 
 ## Update the knowledge JSON
