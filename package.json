@@ -1,0 +1,13 @@
+{
+  "name": "hm-diagnostics-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive five-page HM Diagnostics & Clinics website",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check-site.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
