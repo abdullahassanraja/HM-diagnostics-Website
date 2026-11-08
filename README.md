@@ -56,7 +56,7 @@ docs/                 Content sources and image generation notes
 
 The separate [FastAPI receptionist module](hm-diagnostics-chatbot/README.md) includes an editable knowledge JSON, clearly labelled demo prices, a consent-based appointment flow, Gemini/Groq provider adapters, Google Sheets support and an embeddable chat widget.
 
-Run its `/demo` page locally without credentials. Live providers and Sheets need backend environment configuration. The live website pages are not automatically connected until the backend is deployed and its widget snippet is added. No API keys or Google credentials are committed.
+Run its `/demo` page locally without credentials. Live providers and Sheets need backend environment configuration. All five website pages load Hira from https://hm-care-assistant.onrender.com. Configure the backend ALLOWED_ORIGINS to include https://hm-diagnostics-isb.vercel.app. No API keys or Google credentials are committed.
 
 ## Deploy
 
